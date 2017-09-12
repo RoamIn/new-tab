@@ -1,11 +1,7 @@
-html {
-  box-sizing: border-box;
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -ms-overflow-style: scrollbar;
+@charset "UTF-8";
+body {
   color: #333;
+  font-family: "microsoft yahei", "微软雅黑" !important;
 }
 
 *,
@@ -17,10 +13,11 @@ html {
 input {
   border: none;
   outline: none;
+  font-family: inherit;
 }
 
 body {
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -33,15 +30,14 @@ form {
   top: 40%;
   left: 50vw;
   transform: translateX(-50%);
-  width: 600px;
-  height: 40px;
 }
 
 input {
-  padding: 6px;
-  width: 100%;
-  height: 100%;
-  font-size: 14px;
+  padding: 0 12px;
+  width: 600px;
+  height: 40px;
+  font-size: 18px;
+  background-color: rgba(222, 222, 222, 0.8);
 }
 
 /*# sourceMappingURL=main.css.map */
