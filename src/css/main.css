@@ -1,5 +1,6 @@
 @charset "UTF-8";
 body {
+  margin: 0;
   color: #333;
   font-family: "microsoft yahei", "微软雅黑" !important;
 }
@@ -16,7 +17,14 @@ input {
   font-family: inherit;
 }
 
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 body {
+  overflow: hidden;
   background-image: url(../img/bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;

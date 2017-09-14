@@ -1,7 +1,11 @@
 // Normalize
 @import "normalize";
 
+// Canvas
+@import "canvas";
+
 body {
+    overflow: hidden;
     background-image: url(../img/bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
