@@ -13,19 +13,3 @@ body {
     background-size: cover;
     background-color: #fff;
 }
-
-form {
-    position: absolute;
-    top: 40%;
-    left: 50vw;
-    transform: translateX(-50%);
-}
-
-input {
-    padding: 0 12px;
-    width: 600px;
-    height: 40px;
-
-    font-size: 18px;
-    background-color: rgba(222, 222, 222, .8);
-}

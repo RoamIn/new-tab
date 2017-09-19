@@ -5,17 +5,17 @@
 </template>
 
 <script>
-  import Search from './components/search.vue'
+  import Search from './components/search.vue';
 
   export default {
-    name: 'Home',
-    components: {
-      Search
-    },
-    data () {
-      return {}
-    }
-  }
+      name: 'Home',
+      components: {
+          Search
+      },
+      data () {
+          return {};
+      }
+  };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
