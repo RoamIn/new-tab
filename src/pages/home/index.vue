@@ -1,15 +1,18 @@
 <template>
   <div>
-    <search></search>
+      <drawer></drawer>
+      <search></search>
   </div>
 </template>
 
 <script>
+  import Drawer from './components/drawer.vue';
   import Search from './components/search.vue';
 
   export default {
       name: 'Home',
       components: {
+          Drawer,
           Search
       },
       data () {
